@@ -46,9 +46,9 @@ general kowledge of git/github
 
 👤 **mohsmed hussain**
 
-- GitHub: [@githubhandle](https://github.com/Moh9998)
-- Twitter: [@twitterhandle](https://twitter.com/mohammed166098)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/mohammed)
+- GitHub: [@github/moh9998](https://github.com/Moh9998)
+- Twitter: [@twitter/mohammed166098](https://twitter.com/mohammed166098)
+- LinkedIn: [LinkedIn/mohammed](https://linkedin.com/in/mohammed hussain)
 
 
 
