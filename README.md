@@ -1,13 +1,11 @@
 
 
-# Project Name
-
-protifolio project 
+# protifolio project 
 
 
-> Description the project.
 
-building a protifolio project 
+>building a protifolio project 
+
 
 
 ## Built With
