@@ -30,8 +30,11 @@ git/github, lintes
 
 ### Prerequisites
 
+
 general knowlege of figma Ui
+
 basic understanding of HTML,CSS
+
 general kowledge of git/github
 
 
