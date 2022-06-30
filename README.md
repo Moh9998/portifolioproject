@@ -1,38 +1,41 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# protifolio project 
 
-> Description the project.
+
+
+>building a protifolio project 
+
 
 
 ## Built With
 
 - Major languages
+
+html ,css
+
 - Frameworks
+
+figma UI
+
 - Technologies used
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+git/github, lintes 
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
 
-### Install
+general knowlege of figma Ui
 
-### Usage
+basic understanding of HTML,CSS
 
-### Run tests
+general kowledge of git/github
+
 
 ### Deployment
 
@@ -40,17 +43,13 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **mohsmed hussain**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@github/moh9998](https://github.com/Moh9998)
+- Twitter: [@twitter/mohammed166098](https://twitter.com/mohammed166098)
+- LinkedIn: [LinkedIn/mohammed](https://linkedin.com/in/mohammed-hussain-160a1a95)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
