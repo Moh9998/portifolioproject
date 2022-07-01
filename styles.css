@@ -1,92 +1,66 @@
-.icon{
-    position: absolute;
-width: 20px;
-height: 14px;
-left: 284px;
-top: 19px;
+.icon {
+position: absolute ;
+width: 20px ;
+height: 14px ;
+left: 284px ;
+top: 19px ;
+background: #c4c4c4 ;}
 
-
-background: #C4C4C4;
-}
-
-.main{
-    position: absolute;
-width: 288px;
-height: 336px;
-left: 16px;
-top: 104px;
-
-
-}
-.name{
-    position: absolute;
-width: 220px;
-height: 100px;
-left: 16px;
-top: 104px;
-
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 110%;
-
-
-
-color: #1A2236;
-}
-.paragraph{
-
-    position: absolute;
-    width: 288px;
-    height: 126px;
-    left: 16px;
-    top: 270px;
+.main {
+    position: absolute ;
+width: 288px ;
+height: 336px ;
+left: 16px ; 
+top: 104px ;}
+.name {
+    position: absolute ;
+width: 220px ;
+height: 100px ;
+left: 16px ;
+top: 104px ;
+font-family: 'Playfair Display' ;
+font-style: normal ;
+font-weight: 400 ;
+font-size: 50px ;
+line-height: 110% ;
+color: #1A2236 ;}
+.paragraph { position: absolute ;
+    width: 288px ;
+    height: 126px ;
+    left: 16px ;
+    top: 270px ;
+    font-family: 'Poppins' ;
+    font-style: normal ;
+    font-weight: 400 ;
+    font-size: 14px ;
+    line-height: 21px ;
+    letter-spacing: -0.01em ;
+    color: #1a2236 ;}
+.collab {
+position: absolute ;
+left: 5% ;
+right: 5% ;
+top: 7.94% ;
+bottom: 91.04% ;}
+.rectagle {
+    box-sizing: border-box ;
+    position: absolute ;
+    width: 288px ;
+    height: 50px ;
+    left: 1px ;
+    top: 405px ;
+    background: #1a2236 ;}
+.par {
+    position: absolute ;
+    width: 203.68px ;
+    height: 26.47px ;
+    left: 50px ;
+    top: 402px ;
+    font-family: 'Poppins' ;
+    font-style: normal ;
+    font-weight: 500 ;
+    font-size: 16px ;
+    line-height: 25px ;
+    text-align: center ;
     
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: -0.01em;
-    
-    color: #1A2236;
-}
-.collab{
-
-    position: absolute;
-left: 5%;
-right: 5%;
-top: 7.94%;
-bottom: 91.04%;
-
-}
-.rectagle{  
-
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 288px;
-    height: 50px;
-    left: 1px;
-    top: 405px;
-    
-    background: #1A2236;
-    }
-.par{
-    position: absolute;
-    width: 203.68px;
-    height: 26.47px;
-    left: 50px;
-    top: 402px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: center;
-    
-    color: #FFFFFF;
-
-}
+    color: #ffffff ;}
