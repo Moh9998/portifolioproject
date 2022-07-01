@@ -1,5 +1,6 @@
 
 
+
 # protifolio project 
 
 
@@ -18,7 +19,12 @@ html ,css
 
 figma UI
 
+
 - Technologies used
+
+
+- Technologies used
+
 
 git/github, lintes 
 
