@@ -738,7 +738,7 @@
   height: 126px;
   left: 16px;
   top: 92px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -786,7 +786,7 @@
   height: 30px;
   left: 60px;
   top: 0;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 20px;
