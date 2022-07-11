@@ -34,14 +34,13 @@
 }
 
 .icon {
-  
   width: 20px;
   height: 14px;
   background: #c4c4c4;
   margin-right: 1rem;
   position: relative;
-    right: -10rem;
-    top: -2rem;
+  right: -10rem;
+  top: -2rem;
 }
 
 .main {
@@ -56,8 +55,8 @@
 
 .name {
   position: relative;
-    margin-left: 1rem;
-    margin-top: 9rem;
+  margin-left: 1rem;
+  margin-top: 9rem;
   width: 220px;
   height: 100px;
   font-family: 'Playfair Display', serif;
@@ -120,7 +119,6 @@
   left: 0.5rem;
   width: 320px;
   height: 160px;
- 
 }
 
 .projects {
@@ -129,7 +127,6 @@
   width: 181px;
   height: 50px;
   left: 0.5rem;
-
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 400;
@@ -157,8 +154,6 @@
   background: url(image.png);
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
 }
-
-
 
 .first-project {
   position: absolute;
@@ -237,8 +232,8 @@
 
 .page3-list {
   position: relative;
-    top: 32rem;
-    left: 0.85rem;
+  top: 32rem;
+  left: 0.85rem;
 }
 
 .page4-list {
@@ -256,7 +251,7 @@
 .page-list {
   position: relative;
   top: 60rem;
-  left: 0.80rem;
+  left: 0.8rem;
 }
 
 .page6 {
@@ -319,7 +314,6 @@
 }
 
 .list-layout {
-
   position: relative;
   top: 96rem;
   left: 1.25rem;
@@ -404,6 +398,7 @@
   letter-spacing: -0.0525em;
   color: #fff;
 }
+
 .list-item9 {
   position: absolute;
   width: 118px;
@@ -418,6 +413,7 @@
   letter-spacing: -0.0525em;
   color: #fff;
 }
+
 .shape {
   position: absolute;
   width: 102px;
@@ -452,6 +448,7 @@
   top: 96rem;
   background: #febf52;
 }
+
 .shape3 {
   position: absolute;
   width: 102px;
