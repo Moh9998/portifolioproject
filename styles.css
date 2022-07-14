@@ -486,7 +486,7 @@
   width: 288px;
   height: 63px;
   left: 16px;
-  top: 4635px;
+  top: 4530px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -515,7 +515,7 @@
 #name {
   padding: 1rem;
   position: relative;
-  top: 43rem;
+  top: 32rem;
   border-radius: 7px;
   background: #fff;
   border: 1px solid #dfdfe0;
@@ -534,7 +534,7 @@
 #email {
   padding: 1rem;
   position: relative;
-  top: 45rem;
+  top: 33rem;
   border-radius: 7px;
   background: #fff;
   border: 1px solid #dfdfe0;
@@ -564,7 +564,7 @@
   height: 80%;
   padding: 1rem;
   position: relative;
-  top: 50rem;
+  top: 34rem;
 }
 
 .input {
@@ -584,7 +584,7 @@
   width: 283px;
   height: 44px;
   left: -2px;
-  top: 920px;
+  top: 650px;
   background: #1a2236;
   color: #fff;
 }
@@ -612,7 +612,7 @@
   width: 283px;
   height: 150px;
   left: 15px;
-  top: 5500px;
+  top: 5160px;
   background: #1a2236;
 }
 
@@ -695,4 +695,24 @@
   left: 0;
   top: 70px;
   bottom: 10px;
+}
+
+@media screen and (min-width: 768px)  {
+  .header {
+    display: block;
+  }
+
+  .desktop-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .padding {
+    padding: 0 0.5rem;
+  }
+
+  .geometry{
+    display: none;
+  }
 }
