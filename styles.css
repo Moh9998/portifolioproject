@@ -1,3 +1,8 @@
+body{
+  overflow-x: hidden;
+
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -32,6 +37,33 @@
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(1px);
 }
+.rectangle1 {
+  position: absolute;
+  top: 15.5rem;
+  left: -0.5rem;
+  width: 320px;
+  height: 156px;
+  background: #1a2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1px);
+}
+.work-ul1{
+  position: absolute;
+  top: 19rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: -0.5rem;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  padding-left: 1.3rem;
+}
+.work-ul1 li {
+  list-style-type: none;
+  background-color: #98dede;
+  padding: 0.3rem;
+  margin-right: 0.25rem;
+  width: 87px;
+}
 
 .icon {
   width: 20px;
@@ -54,6 +86,7 @@
 }
 
 .name {
+
   position: relative;
   margin-left: 1rem;
   margin-top: 9rem;
@@ -68,6 +101,7 @@
 }
 
 .paragraph {
+
   position: relative;
   width: 288px;
   height: 126px;
@@ -82,6 +116,7 @@
 }
 
 .collab {
+
   position: absolute;
   left: 1px;
   right: 5%;
@@ -154,8 +189,37 @@
   background: url(image.png);
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
 }
+.laptop1 {
+  position: relative;
+  width: 322px;
+  height: 186px;
+  left: -0.5rem;
+  top: 65px;
+  background: url(image.png);
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
 
 .first-project {
+  position: absolute;
+  margin-left: 1.25rem;
+
+  /* width: 264px; */
+  height: 16px;
+
+  /* left: 90px; */
+  top: -5px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 25px;
+  line-height: 80%;
+
+  /* display: flex; */
+
+  /* identical to box height, or 16px */
+  color: rgb(255, 255, 255);
+}
+.first-project1 {
   position: absolute;
   margin-left: 1.25rem;
 
@@ -183,8 +247,32 @@
   left: 110px;
   top: 7px;
 }
+.see-project-icon1 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 110px;
+  top: 7px;
+}
 
 .see-project-pargraph {
+  position: absolute;
+  width: 124px;
+  height: 4px;
+  left: -10px;
+  top: -10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height */
+
+  text-align: center;
+  color: #fff;
+}
+.see-project-pargraph1 {
   position: absolute;
   width: 124px;
   height: 4px;
@@ -211,6 +299,15 @@
 }
 
 .seeproject {
+  position: absolute;
+  top: 356px;
+  width: 150px;
+  height: 40px;
+  left: 20px;
+  left: 0.75rem;
+  border: 1px solid #fff;
+}
+.seeproject1 {
   position: absolute;
   top: 356px;
   width: 150px;
@@ -267,7 +364,7 @@
   width: 134px;
   height: 50px;
   left: 16px;
-  top: 290px;
+  top: 365px;
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 400;
@@ -696,6 +793,39 @@
   top: 70px;
   bottom: 10px;
 }
+.pic{
+  display :none;
+  }
+  .dots{
+    display :none;
+  }
+  .desktop-flex {
+    display :none;
+  }
+  .image-dots{
+    display :none;
+  }
+  .geo{
+    display :none;
+  }
+  .geo2{
+    display :none;
+  }
+  .img-shape{
+    display :none;
+  }
+  .img-geo3{
+    display :none;
+  }
+  .img-dots{
+    display :none;
+  }
+  .img-geo4{
+    display:none;
+  }
+  .img-geo5{
+    display :none;
+  }
 
 @media screen and (min-width: 768px) {
   .header {
@@ -706,13 +836,497 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 35px;
   }
 
   .padding {
     padding: 0 0.5rem;
   }
-
+  .geometry1 {
+    display: none;
+  }
   .geometry {
     display: none;
   }
+  .pic{
+    display:block;
+    position: relative;
+width: 400px;
+height: 500px;
+margin-left: 100rem;
+top: 100px;
+
+  }
+  .dots{
+    display: block;
+    position: relative;
+width: 175px;
+height: 175px;
+margin-left: 89rem;
+    margin-top: 19rem;
+  }
+  .name {
+    display: block;
+    position: relative;
+    margin-left: 20rem;
+    margin-top: 9rem;
+    width: 317px;
+    height: 96px;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 110%;
+    color: rgb(26, 34, 54);
+  }
+    .paragraph {
+      display: block;
+      position: relative;
+      width: 492px;
+      margin-left: 19rem;
+      top: 2rem;
+      height: 170px;
+      font-family: Poppins, serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 53px;
+      letter-spacing: 0px;
+      color: rgb(26, 34, 54);
+  }
+  
+  
+  .collab {
+    position: absolute;
+    left: 20rem;
+    right: 5%;
+    top: 115.94%;
+    bottom: 91.04%;
+}
+.rectagle {
+  box-sizing: border-box;
+  position: relative;
+  width: 385px;
+  height: 56px;
+  top: 405px;
+  background: #1a2236;}
+  .par {
+    position: relative;
+    width: 206.68px;
+    height: 16.47px;
+    left: 87px;
+    top: 340px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    
+}
+.rectagle:hover{
+  background: #E5E5E5;;
+  border: 1px solid #1A2236;
+}
+.page1 {
+  display:block;
+}
+.projects{
+  display: block;
+  transform: rotate(270deg);
+  margin-left: 36rem;
+  top: 10rem;
+  font-size: 5rem;
+}
+.social-list {
+  display:block;
+  position: absolute;
+  width: 288px;
+  height: 24px;
+  left: 385px;
+  top: -4px;
+  padding: inherit;
+  list-style: none;}
+ .projectlist {
+  display:block;
+    position: relative;
+    width: 320px;
+    height: 342px;
+
+    left: 100rem;
+
+    top: 5rem;
+}
+.laptop1 {
+  display:block;
+  position: relative;
+  width: 1266px;
+  height: 286px;
+  left: -38.5rem;
+  top: -33px;
+  background: url(image.png);
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);}
+  .rectangle1 {
+    display:block;
+    position: absolute;
+    top: 14.25rem;
+    left: -38.5rem;
+    width: 1263px;
+    height: 179px;
+    background: #1a2236;
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1px);
+}
+
+
+.first-project1 {
+  position: absolute;
+  display:block;
+  margin-left: 40rem;
+  height: 16px;
+  top: -9px;
+  font-family: Poppins, serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 31px;
+  line-height: 80%;
+  color: rgb(255, 255, 255);
+}
+.work-ul{
+  
+  position: absolute;
+  top: 19rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 0.5rem;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  padding-left: 1.3rem;}
+  .work-ul1{
+    position: absolute;
+    top: 17rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: -9.5rem;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    padding-left: 1.3rem;}
+    .work-ul1 li {
+      list-style-type: none;
+      background-color: #98dede;
+      padding: 1.0rem;
+      margin-right: 1.25rem;
+      width: 110px;
+      font-size: 1.24rem;
+    }
+   
+  .seeproject1 {
+    position: absolute;
+    top: 356px;
+    width: 463px;
+    height: 40px;
+    left: 20px;
+    left: -8.25rem;
+    border: 1px solid #fff;}
+
+    .see-project-icon1 
+    {
+      position: absolute;
+      width: 30px;
+      height: 24px;
+      left: 370px;
+      top: 7px;
+  }
+  .see-project-pargraph1 {
+    position: absolute;
+    width: 124px;
+    height: 4px;
+    left: 170px;
+    top: -14px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+}
+.image-dots {
+  display: block;
+  position: relative;
+  left: 50rem;
+  top: -18rem;
+}
+.page2-list {
+  display: block;
+  position: relative;
+  top: -30.8rem;
+  left: 61.85rem;
+}
+.geo{
+  display: block;
+  position: relative;
+  left: 100rem;
+  top: -2rem;
+}
+.page3-list {
+  display: block;
+  position: relative;
+  top: -29rem;
+  left: 99.85rem;
+}
+.geo2{
+  display: block; 
+  position: relative;
+  left: 106.75rem;
+  top: 57rem;
+}
+.laptop {
+  position: relative;
+  width: 594px;
+  height: 186px;
+  left: -0.5rem;
+  top: 65px;
+  background: url(image.png);
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);}
+  .rectangle {
+    position: absolute;
+    top: 15.5rem;
+    left: -0.5rem;
+    width: 593px;
+    height: 156px;
+    background: #1a2236;
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1px);
+}
+.work-ul li {
+  list-style-type: none;
+  background-color: #98dede;
+  padding: 0.3rem;
+  margin-right: 3.25rem;
+  width: 118px;
+}
+.work-ul {
+  position: absolute;
+  top: 19rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 0.5rem;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  padding-left: 1.3rem;
+}
+.seeproject {
+  position: absolute;
+  top: 356px;
+  width: 160px;
+  height: 40px;
+  left: 11.75rem;
+  border: 1px solid #fff;
+}
+
+.page4-list {
+  position: relative;
+  top: -16.8rem;
+  left: 61.8rem;
+}
+.img-geo {
+  position: relative;
+  top: 12rem;
+  left: 86rem;
+}
+.img-shape{
+  display:block;
+  position: relative;
+  top: 32rem;
+  
+  left: 58.5rem;
+}
+.page-list {
+  position: relative;
+  top: -28rem;
+  left: 99.8rem;
+}
+
+.img-geo3{
+  display: block;
+  top: 31.75rem;
+  position: relative;
+  left: 56rem;
+
+}
+
+.page5-list {
+  position: relative;
+  top: -47.6rem;
+  left: 0.75rem;
+}
+.page6 {
+  position: absolute;
+  width: 289px;
+  height: 289px;
+  left: 88rem;
+  top: 214rem;
+}
+
+.about {
+  position: absolute;
+  width: 134px;
+  height: 50px;
+  left: 0px;
+  top: 210px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 100%;
+  color: #1a2236;
+}
+.list-layout {
+  position: relative;
+  top: -9rem;
+  left: 50.25rem;
+  width: 289px;
+  height: 289px;
+  background: #1c528a;
+}
+.list-layout2 {
+  position: relative;
+  width: 289px;
+  height: 289px;
+  left: 68.25rem;
+  top: -28rem;
+  background: #e2505c;
+}
+.list-layout3 {
+  position: relative;
+  width: 289px;
+  height: 289px;
+  left: 50.25rem;
+  top: -29rem;
+  background: #febf52;
+}
+
+.img-dots{
+  display:block;
+  position: relative;
+  top: 85rem;
+  left: 70rem;
+}
+.healine5 {
+  position: absolute;
+  width: 100;
+  height: 50px;
+  left: 65rem;
+  top: 4430px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 100%;
+  color: #1a2236;
+}
+.img {
+  position: absolute;
+  height: 74.02px;
+  left: 0;
+  top: 4435px;
+}
+.lorem {
+  position: absolute;
+  width: 348px;
+  height: 63px;
+  left: 67rem;
+  top: 4549px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
+.form {
+  position: absolute;
+  top: 0rem;
+  left: 66rem;
+}
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  left: 15px;
+  top: 5160px;
+  background: #1a2236;
+}
+.resume {
+  position: absolute;
+  width: 270px;
+  height: 24px;
+  left: 5rem;
+  top: 37px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 26px;
+  color: #92dcdc;
+}
+
+.github {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 70rem;
+  top: 70px;
+  bottom: 10px;
+}
+.twitter {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 75rem;
+  top: 70px;
+  bottom: 10px;
+}
+.medeum {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 80rem;
+  top: 70px;
+  bottom: 10px;
+}
+.stackoverflow {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 85rem;
+  top: 70px;
+  bottom: 10px;
+}
+.angellist {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 90rem;
+  top: 70px;
+  bottom: 10px;
+}
+.img-geo4{
+  display:block;
+  position: absolute;
+    top: 300rem;
+    left: 123rem;
+}
+.img-geo5{
+  position:absolute;
+  display:block;
+  top: 277rem;
+
+}
+.img{
+  display: none;
+}
 }
