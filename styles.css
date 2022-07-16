@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  margin: 0;
 }
 
 .header {
@@ -1275,7 +1276,7 @@ body {
     position: absolute;
     width: 100;
     height: 50px;
-    left: 22rem;
+    left: 65rem;
     top: 4430px;
     font-family: 'Playfair Display', serif;
     font-style: normal;
@@ -1297,7 +1298,7 @@ body {
     position: absolute;
     width: 348px;
     height: 63px;
-    left: 22rem;
+    left: 65rem;
     top: 4549px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -1311,7 +1312,7 @@ body {
   .form {
     position: absolute;
     top: 283px;
-    left: 25rem;
+    left: 73rem;
     margin: -15rem;
     padding: 20rem;
   }
