@@ -572,6 +572,7 @@ body {
 }
 
 .img {
+  display: block;
   position: absolute;
   height: 74.02px;
   left: 0;
@@ -888,7 +889,7 @@ body {
     position: relative;
     width: 400px;
     height: 500px;
-    margin-left: 100rem;
+    margin-left: 65rem;
     top: 100px;
   }
 
@@ -897,7 +898,7 @@ body {
     position: relative;
     width: 175px;
     height: 175px;
-    margin-left: 89rem;
+    margin-left: 54rem;
     margin-top: 19rem;
   }
 
@@ -1119,22 +1120,23 @@ body {
   .geo {
     display: block;
     position: relative;
-    left: 103.5rem;
+    left: 29.5rem;
     top: -2rem;
   }
 
   .page3-list {
     display: block;
     position: relative;
-    top: -67rem;
-    left: 98.85rem;
+    top: -88.9rem;
+    left: 99.85rem;
   }
+
 
   .geo2 {
     display: block;
     position: relative;
     left: 0.29rem;
-    top: 19rem;
+    top: -15rem;
   }
 
   .laptop {
@@ -1191,14 +1193,14 @@ body {
   .img-shape {
     display: block;
     position: relative;
-    top: 8rem;
-    left: 95.5rem;
+    top: -14rem;
+    left: 96.5rem;
   }
 
   .page-list {
     position: relative;
-    top: -56rem;
-    left: 50.8rem;
+    top: -102rem;
+    left: 0.8rem;
   }
 
   .img-geo3 {
@@ -1210,7 +1212,7 @@ body {
 
   .page5-list {
     position: relative;
-    top: -90.6rem;
+    top: -125.6rem;
     left: 0.75rem;
   }
 
@@ -1218,9 +1220,10 @@ body {
     position: absolute;
     width: 289px;
     height: 289px;
-    left: 88rem;
-    top: 214rem;
+    left: 39rem;
+    top: 220rem;
   }
+
 
   .about {
     position: absolute;
@@ -1239,7 +1242,7 @@ body {
   .list-layout {
     position: relative;
     top: -9rem;
-    left: 50.25rem;
+    left: 1.25rem;
     width: 289px;
     height: 289px;
     background: #1c528a;
@@ -1249,7 +1252,7 @@ body {
     position: relative;
     width: 289px;
     height: 289px;
-    left: 68.25rem;
+    left: 19.25rem;
     top: -28rem;
     background: #e2505c;
   }
@@ -1258,7 +1261,7 @@ body {
     position: relative;
     width: 289px;
     height: 289px;
-    left: 50.25rem;
+    left: 1.25rem;
     top: -29rem;
     background: #febf52;
   }
@@ -1267,14 +1270,14 @@ body {
     display: block;
     position: relative;
     top: 85rem;
-    left: 70rem;
+    left: 20rem;
   }
 
   .healine5 {
     position: absolute;
     width: 100;
     height: 50px;
-    left: 65rem;
+    left: 22rem;
     top: 4430px;
     font-family: 'Playfair Display', serif;
     font-style: normal;
@@ -1285,6 +1288,7 @@ body {
   }
 
   .img {
+    display: none;
     position: absolute;
     height: 74.02px;
     left: 0;
@@ -1295,7 +1299,7 @@ body {
     position: absolute;
     width: 348px;
     height: 63px;
-    left: 67rem;
+    left: 22rem;
     top: 4549px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -1308,8 +1312,10 @@ body {
 
   .form {
     position: absolute;
-    top: 0;
-    left: 55rem;
+    top: 283px;
+    left: 25rem;
+    margin: -15rem;
+    padding: 20rem;
   }
 
   .footer {
