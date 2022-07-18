@@ -31,7 +31,8 @@ git/github, lintes
 
 ## Getting Started
 
-
+Please check out the online version on this link:
+https://moh9998.github.io/portifolioproject/
 
 
 ### Prerequisites
