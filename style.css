@@ -5,9 +5,11 @@
   margin: 6% 5% 0 10%;
   margin-top: 30px;
 }
-.img{
+
+.img {
   display: block;
 }
+
 .labels {
   font-family: 'Poppins', serif;
   font-style: normal;
@@ -621,9 +623,11 @@ footer ul {
       "hello mosaic";
     padding-bottom: 85px;
   }
-.img{
-  display: none;
-}
+
+  .img {
+    display: none;
+  }
+
   .greetings {
     align-items: flex-start;
     position: relative;
