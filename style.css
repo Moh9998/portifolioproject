@@ -20,28 +20,20 @@
 }
 
 .icon-1 {
-
   background: #1a2236;
-
- 
-
   width: 20px;
   height: 2px;
 }
 
 .icon-2 {
-
   background: #1a2236;
-
   width: 20px;
   height: 2px;
   margin-top: 4px;
 }
 
 .icon-3 {
-
   background: #1a2236;
-
   width: 20px;
   height: 2px;
   margin-top: 4px;
@@ -64,7 +56,6 @@
 }
 
 .collab-button {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
