@@ -1,17 +1,12 @@
-.icon {
+.burger {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   margin: 6% 5% 0 10%;
-  margin-top: 30px;
-}
-
-.img {
-  display: block;
 }
 
 .labels {
-  font-family: 'Poppins', serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -19,21 +14,21 @@
   color: #7d7c84;
 }
 
-.icon-1 {
-  background: #1a2236;
+.burger-1 {
+  background-color: #c4c4c4;
   width: 20px;
   height: 2px;
 }
 
-.icon-2 {
-  background: #1a2236;
+.burger-2 {
+  background-color: #c4c4c4;
   width: 20px;
   height: 2px;
   margin-top: 4px;
 }
 
-.icon-3 {
-  background: #1a2236;
+.burger-3 {
+  background-color: #c4c4c4;
   width: 20px;
   height: 2px;
   margin-top: 4px;
@@ -62,15 +57,15 @@
   align-items: center;
   background: #1a2236;
   color: #fff;
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 50px;
+  line-height: 24px;
   width: 100%;
   height: 100%;
 }
 
-.collab-link:hover {
+.collab-button:hover {
   background: #fff;
   color: #1a2236;
   border: 2px solid #1a2236;
@@ -85,7 +80,7 @@
   margin-bottom: 10px;
 }
 
-.greetings {
+.greeting {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,7 +89,7 @@
 }
 
 nav {
-  display: block;
+  display: none;
   background-color: #fff;
   box-shadow: 0 0.5px 0 #dddfe6;
 }
@@ -102,10 +97,6 @@ nav {
 ul {
   margin-top: 7.3%;
   margin-left: 3.47%;
-}
-
-nav img {
-  margin-top: -46px;
 }
 
 nav ul {
@@ -123,7 +114,7 @@ a {
 }
 
 footer a {
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -141,7 +132,7 @@ footer a {
 }
 
 nav a {
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -154,9 +145,9 @@ nav a:hover {
   border-bottom: 2px solid #1a2236;
 }
 
-.greetings h1 {
-  font-size: 75px;
-  font-family: "Playfair Display", serif;
+.greeting h1 {
+  font-size: 50px;
+  font-family: "Playfair Display", sans-serif;
   font-weight: normal;
   line-height: 100%;
   margin-top: 0;
@@ -165,8 +156,8 @@ nav a:hover {
 
 p {
   color: #1a2236;
-  font-size: 17px;
-  font-family: "Poppins", serif;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
   line-height: 21px;
   font-weight: normal;
   font-style: normal;
@@ -175,15 +166,15 @@ p {
   max-width: 500px;
 }
 
-.greetings p {
+.greeting p {
   letter-spacing: -0.01em;
 }
 
-.work {
+.works {
   width: 100%;
 }
 
-.work-container {
+.works-container {
   display: grid;
   grid-template-columns: 100%;
   list-style-type: none;
@@ -192,24 +183,24 @@ p {
   margin-left: 0;
 }
 
-.work h2 {
+.works h2 {
   align-self: center;
   font-size: 50px;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 100%;
   margin: 5% 0 5% 10%;
 }
 
-.work-img {
+.works-img {
   display: block;
   max-width: 600px;
   width: 100%;
   margin: 0 auto;
 }
 
-.work-box {
+.works-box {
   background-color: #1a2236;
   color: #fff;
   max-width: 600px;
@@ -220,9 +211,9 @@ p {
   margin-top: -2px;
 }
 
-.work-box h3 {
+.works-box h3 {
   font-size: 20px;
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
   line-height: 80%;
@@ -239,20 +230,20 @@ p {
 .framework-box {
   background-color: #98dede;
   color: #000;
-  font-size: 17px;
+  font-size: 10.33px;
   font-weight: 300;
   line-height: 80%;
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   padding: 2.16% 3.8%;
   margin-right: 3.6%;
 }
 
-.work-button {
+.works-button {
   display: flex;
   justify-content: space-evenly;
   color: #fff;
   font-size: 16px;
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 24px;
@@ -262,11 +253,11 @@ p {
   border: 2px solid #fff;
 }
 
-.work-button span {
+.works-button span {
   margin-right: 6.75%;
 }
 
-.work-button:hover {
+.works-button:hover {
   background-color: #fff;
   color: #1a2236;
 }
@@ -277,7 +268,7 @@ p {
   align-items: center;
 }
 
-.work-arrow {
+.works-arrow {
   width: 21px;
   height: 15px;
   background-image: url(./Media/Union.svg);
@@ -285,7 +276,7 @@ p {
   align-self: center;
 }
 
-.work-button:hover .work-arrow {
+.works-button:hover .works-arrow {
   background-image: url(./Media/union-2.svg);
 }
 
@@ -293,7 +284,7 @@ p {
   align-self: flex-start;
   color: #1a2236;
   font-size: 50px;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 100%;
@@ -303,7 +294,7 @@ p {
 .about h3 {
   color: #fff;
   font-size: 20px;
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-style: normal;
   margin-top: 7.765vh;
@@ -336,7 +327,7 @@ p {
   width: 100%;
 }
 
-.cv {
+.cv-box {
   display: flex;
   background-color: #1a2236;
   width: 90%;
@@ -346,25 +337,25 @@ p {
   border: 2px solid #1a2236;
 }
 
-.cv:hover {
+.cv-box:hover {
   background-color: #fff;
   color: #1a2236;
 }
 
-.cv span {
+.cv-box span {
   color: #fff;
   font-size: 16px;
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   line-height: 24px;
   margin: 4.51% 6.94% 4.51% 27.43%;
 }
 
-.cv:hover span {
+.cv-box:hover span {
   color: #1a2236;
 }
 
-.cv div {
+.cv-box div {
   align-self: center;
   width: 26px;
   height: 26px;
@@ -375,7 +366,7 @@ p {
 .about li {
   color: #fff;
   font-size: 18px;
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
   line-height: 27px;
@@ -393,7 +384,7 @@ p {
   margin: 0 auto;
 }
 
-.framework {
+.frameworks {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -445,7 +436,7 @@ label {
 }
 
 input {
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   width: 100%;
   height: 52px;
   left: 16px;
@@ -465,10 +456,9 @@ input::placeholder {
 }
 
 textarea {
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   width: 100%;
   height: 112px;
-  resize: none;
   left: 16px;
   top: 4520px;
   background: #fff;
@@ -492,7 +482,7 @@ textarea::placeholder {
   align-items: center;
   background: #1a2236;
   color: #fff;
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -510,7 +500,7 @@ textarea::placeholder {
 
 .contact-me h2 {
   color: #1a2236;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 50px;
@@ -520,7 +510,7 @@ textarea::placeholder {
 }
 
 .contact-me p {
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -559,7 +549,7 @@ footer ul {
   margin: 0;
 }
 
-.deco {
+.deco-0 {
   display: none;
 }
 
@@ -611,7 +601,7 @@ footer ul {
     grid-area: nav;
   }
 
-  .icon {
+  .burger {
     display: none;
   }
 
@@ -624,11 +614,7 @@ footer ul {
     padding-bottom: 85px;
   }
 
-  .img {
-    display: none;
-  }
-
-  .greetings {
+  .greeting {
     align-items: flex-start;
     position: relative;
     grid-area: hello;
@@ -636,13 +622,13 @@ footer ul {
     margin: 192px 0 0 22%;
   }
 
-  .greetings h1 {
+  .greeting h1 {
     font-size: 80px;
     line-height: 100%;
     margin-right: 13%;
   }
 
-  .greetings p {
+  .greeting p {
     margin-right: 13%;
     font-size: 14px;
     line-height: 21px;
@@ -663,16 +649,16 @@ footer ul {
     align-items: center;
     background: #1a2236;
     color: #fff;
-    font-family: "Poppins", serif;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    width: 100%;
+    width: 250%;
     height: 100%;
     padding: auto 30px;
   }
 
-  .deco {
+  .deco-0 {
     display: block;
     position: absolute;
     bottom: 0;
@@ -739,7 +725,7 @@ footer ul {
     margin-top: 42px;
   }
 
-  .cv {
+  .cv-box {
     width: 100%;
     height: 70px;
     padding-right: 5%;
@@ -763,7 +749,7 @@ footer ul {
     margin: 0;
   }
 
-  .framework {
+  .frameworks {
     width: 289px;
     margin: 0;
   }
@@ -801,7 +787,7 @@ footer ul {
     margin-left: 30%;
   }
 
-  .work {
+  .works {
     margin-bottom: 216px;
   }
 
@@ -810,7 +796,7 @@ footer ul {
     margin-right: 10%;
   }
 
-  .work ul,
+  .works ul,
   .c1 {
     display: flex;
     flex-direction: row;
@@ -826,7 +812,7 @@ footer ul {
     flex-direction: row !important;
   }
 
-  .work h2 {
+  .works h2 {
     align-self: flex-end;
     font-size: 90px;
     margin-bottom: 12.625%;
@@ -858,53 +844,53 @@ footer ul {
     width: 100%;
   }
 
-  .project-1 .work-box {
+  .project-1 .works-box {
     display: none;
     position: absolute;
     bottom: 0;
     max-width: none;
   }
 
-  .work-box:hover {
+  .works-box:hover {
     display: block;
   }
 
-  .project-2 .work-box {
+  .project-2 .works-box {
     display: none;
     position: absolute;
     bottom: 0;
     max-width: none;
   }
 
-  .project-3 .work-box {
+  .project-3 .works-box {
     position: absolute;
     display: none;
     bottom: 0;
     max-width: none;
   }
 
-  .project-4 .work-box {
+  .project-4 .works-box {
     position: absolute;
     display: none;
     bottom: 0;
     max-width: none;
   }
 
-  .project-5 .work-box {
+  .project-5 .works-box {
     position: absolute;
     display: none;
     bottom: 0;
     max-width: none;
   }
 
-  .project-6 .work-box {
+  .project-6 .works-box {
     position: absolute;
     display: none;
     bottom: 0;
     max-width: none;
   }
 
-  .work-img:hover ~ .work-box {
+  .works-img:hover ~ .works-box {
     display: block;
   }
 
@@ -935,7 +921,7 @@ footer ul {
     width: 52.4%;
   }
 
-  .project-2 .work-box:hover {
+  .project-2 .works-box:hover {
     display: block;
   }
 
@@ -961,7 +947,7 @@ footer ul {
     width: 100%;
   }
 
-  .project-3 .work-box:hover {
+  .project-3 .works-box:hover {
     display: block;
   }
 
@@ -982,11 +968,11 @@ footer ul {
     width: 100%;
   }
 
-  .project-4 .work-box:hover {
+  .project-4 .works-box:hover {
     display: block;
   }
 
-  .project-5 .work-box:hover {
+  .project-5 .works-box:hover {
     display: block;
   }
 
@@ -1019,11 +1005,11 @@ footer ul {
     width: 32.29%;
   }
 
-  .project-6 .work-box:hover {
+  .project-6 .works-box:hover {
     display: block;
   }
 
-  .work h3 {
+  .works h3 {
     font-size: 230%;
   }
 
@@ -1091,7 +1077,7 @@ footer ul {
     font-size: 110px;
   }
 
-  .work h2 {
+  .works h2 {
     font-size: 110px;
   }
 
@@ -1129,7 +1115,7 @@ footer ul {
   }
 
   .languages,
-  .framework,
+  .frameworks,
   .skills {
     max-width: none;
     width: 100%;
