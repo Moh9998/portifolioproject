@@ -20,20 +20,20 @@
 }
 
 .icon-1 {
-  background-color: #1a2236;
+  background: #1a2236;
   width: 20px;
   height: 2px;
 }
 
 .icon-2 {
-  background-color: #1a2236;
+  background: #1a2236;
   width: 20px;
   height: 2px;
   margin-top: 4px;
 }
 
 .icon-3 {
-  background-color: #1a2236;
+  background: #1a2236;
   width: 20px;
   height: 2px;
   margin-top: 4px;
@@ -48,14 +48,14 @@
   align-items: center;
 }
 
-.start-link {
+.collab-link {
   max-width: 500px;
   width: 100%;
   height: 50px;
   margin: 7.5% 0;
 }
 
-.collab-link {
+.collab-button {
   display: flex;
   flex-direction: column;
   justify-content: center;
