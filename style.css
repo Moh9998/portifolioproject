@@ -3,6 +3,11 @@
   flex-direction: column;
   align-items: flex-end;
   margin: 6% 5% 0 10%;
+  margin-top: 30px;
+}
+
+.img {
+  display: block;
 }
 
 .labels {
@@ -15,20 +20,28 @@
 }
 
 .icon-1 {
+
   background: #1a2236;
+
+ 
+
   width: 20px;
   height: 2px;
 }
 
 .icon-2 {
+
   background: #1a2236;
+
   width: 20px;
   height: 2px;
   margin-top: 4px;
 }
 
 .icon-3 {
+
   background: #1a2236;
+
   width: 20px;
   height: 2px;
   margin-top: 4px;
@@ -51,6 +64,7 @@
 }
 
 .collab-button {
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,12 +74,12 @@
   font-family: "Poppins", serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 50px;
   width: 100%;
   height: 100%;
 }
 
-.collab-button:hover {
+.collab-link:hover {
   background: #fff;
   color: #1a2236;
   border: 2px solid #1a2236;
@@ -80,7 +94,7 @@
   margin-bottom: 10px;
 }
 
-.greeting {
+.greetings {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -89,7 +103,7 @@
 }
 
 nav {
-  display: none;
+  display: block;
   background-color: #fff;
   box-shadow: 0 0.5px 0 #dddfe6;
 }
@@ -97,6 +111,10 @@ nav {
 ul {
   margin-top: 7.3%;
   margin-left: 3.47%;
+}
+
+nav img {
+  margin-top: -46px;
 }
 
 nav ul {
@@ -145,8 +163,8 @@ nav a:hover {
   border-bottom: 2px solid #1a2236;
 }
 
-.greeting h1 {
-  font-size: 50px;
+.greetings h1 {
+  font-size: 75px;
   font-family: "Playfair Display", serif;
   font-weight: normal;
   line-height: 100%;
@@ -156,7 +174,7 @@ nav a:hover {
 
 p {
   color: #1a2236;
-  font-size: 14px;
+  font-size: 17px;
   font-family: "Poppins", serif;
   line-height: 21px;
   font-weight: normal;
@@ -166,7 +184,7 @@ p {
   max-width: 500px;
 }
 
-.greeting p {
+.greetings p {
   letter-spacing: -0.01em;
 }
 
@@ -615,7 +633,11 @@ footer ul {
     padding-bottom: 85px;
   }
 
-  .greeting {
+  .img {
+    display: none;
+  }
+
+  .greetings {
     align-items: flex-start;
     position: relative;
     grid-area: hello;
@@ -623,13 +645,13 @@ footer ul {
     margin: 192px 0 0 22%;
   }
 
-  .greeting h1 {
+  .greetings h1 {
     font-size: 80px;
     line-height: 100%;
     margin-right: 13%;
   }
 
-  .greeting p {
+  .greetings p {
     margin-right: 13%;
     font-size: 14px;
     line-height: 21px;

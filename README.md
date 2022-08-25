@@ -26,7 +26,7 @@ figma UI
 - Technologies used
 
 
-git/github, lintes 
+git/github, linters 
 
 
 ## Getting Started
