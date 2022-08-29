@@ -4,9 +4,11 @@
   align-items: flex-end;
   margin: 6% 5% 0 10%;
 }
-.burger :hover{
+
+.burger :hover {
   cursor: pointer;
 }
+
 .labels {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
