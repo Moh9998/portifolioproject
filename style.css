@@ -470,6 +470,7 @@ textarea {
   box-sizing: border-box;
   border-radius: 4px;
   margin-bottom: 20px;
+  resize: none;
 }
 
 textarea::placeholder {
@@ -785,6 +786,10 @@ footer ul {
     width: 100%;
   }
 
+  textarea {
+    resize: none;
+  }
+
   .contact-me button {
     width: 255px;
     align-self: center;
@@ -1041,10 +1046,6 @@ footer ul {
     align-self: center;
     margin: 0;
     margin-bottom: 82px;
-  }
-
-  textarea {
-    margin-bottom: 40px;
   }
 
   .deco-8 {
