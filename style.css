@@ -1,12 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap%22");
+
 .burger {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin: 6% 5% 0 10%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 25px;
+  padding-right: 25px;
 }
 
 .burger :hover {
   cursor: pointer;
+}
+
+.mobile-menu-deco {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.moblie-menu-deco2 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.close-img {
+  position: absolute;
+  z-index: 999;
+  top: 25px;
+  right: 25px;
+}
+
+.no-display {
+  display: none;
+}
+
+.moblie-dots {
+  position: absolute;
+  right: 53px;
+  top: 104px;
 }
 
 .labels {
@@ -95,7 +132,10 @@
 nav {
   display: none;
   background-color: #fff;
-  box-shadow: 0 0.5px 0 #dddfe6;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 ul {
@@ -105,12 +145,14 @@ ul {
 
 nav ul {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   list-style-type: none;
-  height: 100px;
-  padding: 0;
-  margin: 0 37.22%;
+  height: 195px;
+  padding: 1px;
+  margin: 120px 37.22%;
+  margin-top: 5rem;
+  justify-content: space-between;
 }
 
 a {
@@ -138,7 +180,7 @@ footer a {
 nav a {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   text-align: right;
@@ -154,7 +196,7 @@ nav a:hover {
   font-family: "Playfair Display", sans-serif;
   font-weight: normal;
   line-height: 100%;
-  margin-top: 0;
+  margin-top: 75px;
   margin-bottom: 1.25vw;
 }
 
@@ -412,7 +454,7 @@ p {
 
 body {
   background-color: #fff;
-  background-image: url(./Media/image_geometry_1.svg);
+  background-image: url(./img/image_geometry_1.svg);
   background-repeat: no-repeat;
   margin: 0;
 }
@@ -422,7 +464,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #f9f9fa;
-  background-image: url(./Media/image_geometry_1.svg);
+  background-image: url(./img/image_geometry_1.svg);
   background-repeat: no-repeat;
 }
 
@@ -602,11 +644,35 @@ footer ul {
   }
 
   nav {
+    height: auto;
     display: block;
     grid-area: nav;
   }
 
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0;
+  }
+
   .burger {
+    display: none;
+  }
+
+  .moblie-dots {
+    display: none;
+  }
+
+  .mobile-menu-deco {
+    display: none;
+  }
+
+  .moblie-menu-deco2 {
+    display: none;
+  }
+
+  .menu-image {
     display: none;
   }
 

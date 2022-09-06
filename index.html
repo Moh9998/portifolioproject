@@ -11,19 +11,33 @@
 </head>
 <body>
   <div id="nav-wrapper">
-    <nav>
-      <ul>
+    <nav id="nav-header">
+     
+      <ul id="nav-list">
         <li><a href="#greeting" rel="access">Hello</a></li>
         <li><a href="#projects" rel="acess">Portfolio</a></li>
         <li><a href="#about" rel="access">About</a></li>
         <li><a href="#contact" rel="access">Contact</a></li>
       </ul>
+
     </nav>
-    <div class="burger" id="burger" >
+    <div class="burger" id="burger" onclick="menu()" >
+      
       <div class="burger-1"></div> 
       <div class="burger-2"></div>
       <div class="burger-3"></div>
+     
     </div>
+    <img id= "close-icon" class="close-img no-display" src="./img/close.svg" onclick=" closeMenu()" alt="close menu"/>
+    <div class="menu-image">
+   
+      <img id="img-deco1" class="mobile-menu-deco no-display" src="./img/Group98.svg" alt="menu decoration" />
+      <img id="img-dots" class="moblie-dots no-display" src="./img/Group50.svg" alt="menu decoration dots "/>
+      <img id="img-deco2" class="moblie-menu-deco2 no-display" src="./img/MaskGroup.svg" alt="menu decoration mask"/>
+
+
+      
+  </div>
     <section id="greeting" class="greeting">
       <h1>Mohammed Hussain</h1>
       <p>
@@ -259,5 +273,8 @@
       <li><a href="#" rel="access"><img src="./img/ic_stackoverflow.svg" alt="stack-overflow"></a></li>
     </ul>
   </footer>
+
+  <script src="./index.js">
+  </script>
 </body>
 </html>
