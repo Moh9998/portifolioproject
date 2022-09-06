@@ -11,7 +11,7 @@
 </head>
 <body>
   <div id="nav-wrapper">
-    <nav>
+    <nav id="nav-header">
      
       <ul id="nav-list">
         <li><a href="#greeting" rel="access">Hello</a></li>
@@ -21,23 +21,19 @@
       </ul>
 
     </nav>
-    <div class="burger" id="burger" onclick="open()"  >
+    <div class="burger" id="burger" onclick="menu()" >
       
       <div class="burger-1"></div> 
       <div class="burger-2"></div>
       <div class="burger-3"></div>
-      <img class="close-img" src="./img/close.svg"/>
+     
     </div>
-
+    <img id= "close-icon" class="close-img no-display" src="./img/close.svg" onclick=" closeMenu()" alt="close menu"/>
     <div class="menu-image">
    
-      <img class="mobile-menu-deco" src="./img/Group 98.svg"/>
-      <img class="moblie-dots" src="./img/Group 50.svg"/>
-   
-     
-      <img class="moblie-dots2" src="./img/union.svg"/>
-   
-      <img class="moblie-menu-deco2" src="./img/Mask Group.svg"/>
+      <img id="img-deco1" class="mobile-menu-deco no-display" src="./img/Group98.svg" alt="menu decoration" />
+      <img id="img-dots" class="moblie-dots no-display" src="./img/Group50.svg" alt="menu decoration dots "/>
+      <img id="img-deco2" class="moblie-menu-deco2 no-display" src="./img/MaskGroup.svg" alt="menu decoration mask"/>
 
 
       
@@ -278,7 +274,7 @@
     </ul>
   </footer>
 
-  <script src="index.js">
+  <script src="./index.js">
   </script>
 </body>
 </html>
