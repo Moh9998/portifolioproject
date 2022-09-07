@@ -215,6 +215,95 @@ p {
 .greeting p {
   letter-spacing: -0.01em;
 }
+.modal{
+  width:70%;
+  height: 80%;
+  left: 20%;
+  top: 80px;
+  position: fixed;
+  top:10px;
+  bottom:10px;
+  background-color:#eee;
+  color:#000;
+  z-index: 1;
+}
+.close-btn{
+  position: absolute;
+  left: 300px;
+  top: 30px;
+}
+.close-btn:hover{
+  cursor:pointer;
+}
+.modal ul{
+  display: flex;
+  list-style-type: none;
+  border: 1px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: center;
+  padding:1rem;
+
+}
+.modal ul li{
+  border: 0.516669px solid #1A2236;
+  padding: 0.5rem;
+}
+.modal p{
+  padding: 15px;
+}
+.btn1{
+
+  font-family: 'Poppins' , serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+text-align: center;
+
+color: #1A2236;
+
+position: absolute;
+
+width: 246px;
+height: 51px;
+left: 37px;
+top: 650px;
+border: 1px solid #1A2236;
+
+}
+.btn1:hover{
+  background-color:
+  #1A2236;
+  color:#dfdfe0;
+  cursor: pointer;
+}
+.btn2{
+  font-family: 'Poppins' , sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+
+color: #1A2236;
+
+  position: absolute;
+  width: 246px;
+  height: 51px;
+  left: 37px;
+  top: 710px;
+  border: 1px solid #1A2236;}
+  .btn2:hover{
+    background-color:
+    #1A2236;
+    color:#dfdfe0;
+    cursor: pointer;
+  }
 
 .works {
   width: 100%;
@@ -317,13 +406,13 @@ p {
 .works-arrow {
   width: 21px;
   height: 15px;
-  background-image: url(./Media/Union.svg);
+  background-image: url(./img/Union.svg);
   display: block;
   align-self: center;
 }
 
 .works-button:hover .works-arrow {
-  background-image: url(./Media/union-2.svg);
+  background-image: url(./img/union-2.svg);
 }
 
 .about h2 {
@@ -405,9 +494,10 @@ p {
   align-self: center;
   width: 26px;
   height: 26px;
-  background-image: url(./Media/ic_download.svg);
+  background-image: url(./img/ic_download.svg);
   background-repeat: no-repeat;
 }
+
 
 .about li {
   color: #fff;
