@@ -215,27 +215,32 @@ p {
 .greeting p {
   letter-spacing: -0.01em;
 }
-.modal{
-  width:70%;
-  height: 80%;
+
+.modal {
+  display: none;
+  width: 70%;
+  height: 100vh;
   left: 20%;
   top: 80px;
   position: fixed;
-  top:10px;
-  bottom:10px;
-  background-color:#eee;
-  color:#000;
+  top: 10px;
+  bottom: 10px;
+  background-color: #eee;
+  color: #000;
   z-index: 1;
 }
-.close-btn{
+
+.close-btn {
   position: absolute;
   left: 300px;
   top: 30px;
 }
-.close-btn:hover{
-  cursor:pointer;
+
+.close-btn:hover {
+  cursor: pointer;
 }
-.modal ul{
+
+.modal ul {
   display: flex;
   list-style-type: none;
   border: 1px;
@@ -243,67 +248,64 @@ p {
   justify-content: space-between;
   align-items: stretch;
   align-content: center;
-  padding:1rem;
-
+  padding: 1rem;
 }
-.modal ul li{
-  border: 0.516669px solid #1A2236;
+
+.modal ul li {
+  border: 0.516669px solid #1a2236;
   padding: 0.5rem;
 }
-.modal p{
+
+.modal p {
   padding: 15px;
 }
-.btn1{
 
-  font-family: 'Poppins' , serif;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 27px;
-
-text-align: center;
-
-color: #1A2236;
-
-position: absolute;
-
-width: 246px;
-height: 51px;
-left: 37px;
-top: 650px;
-border: 1px solid #1A2236;
-
+.btn1 {
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #1a2236;
+  position: absolute;
+  width: 246px;
+  height: 51px;
+  left: 37px;
+  top: 650px;
+  border: 1px solid #1a2236;
 }
-.btn1:hover{
-  background-color:
-  #1A2236;
-  color:#dfdfe0;
+
+.btn1:hover {
+  background-color: #1a2236;
+  color: #dfdfe0;
   cursor: pointer;
 }
-.btn2{
-  font-family: 'Poppins' , sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 27px;
-/* identical to box height */
 
-text-align: center;
+.btn2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
 
-color: #1A2236;
+  /* identical to box height */
 
+  text-align: center;
+  color: #1a2236;
   position: absolute;
   width: 246px;
   height: 51px;
   left: 37px;
   top: 710px;
-  border: 1px solid #1A2236;}
-  .btn2:hover{
-    background-color:
-    #1A2236;
-    color:#dfdfe0;
-    cursor: pointer;
-  }
+  border: 1px solid #1a2236;
+}
+
+.btn2:hover {
+  background-color: #1a2236;
+  color: #dfdfe0;
+  cursor: pointer;
+}
 
 .works {
   width: 100%;
@@ -497,7 +499,6 @@ color: #1A2236;
   background-image: url(./img/ic_download.svg);
   background-repeat: no-repeat;
 }
-
 
 .about li {
   color: #fff;
@@ -731,6 +732,26 @@ footer ul {
 @media screen and (min-width: 1025px) {
   body {
     background-image: none;
+  }
+
+  .modal {
+    display: block;
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+  }
+  .btn1{
+    top:830px;
+
+  }
+  .btn2{
+    top:830px;
+    left:20rem;
+  }
+  .close-btn{
+    position: absolute;
+    left: 260px;
+    top: 30px;
   }
 
   nav {
