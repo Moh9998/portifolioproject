@@ -221,9 +221,8 @@ p {
   width: 70%;
   height: 100vh;
   left: 20%;
-  top: 80px;
+  top: 90px;
   position: fixed;
-  top: 10px;
   bottom: 10px;
   background-color: #eee;
   color: #000;
@@ -238,22 +237,6 @@ p {
 
 .close-btn:hover {
   cursor: pointer;
-}
-
-.modal ul {
-  display: flex;
-  list-style-type: none;
-  border: 1px;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: stretch;
-  align-content: center;
-  padding: 1rem;
-}
-
-.modal ul li {
-  border: 0.516669px solid #1a2236;
-  padding: 0.5rem;
 }
 
 .modal p {
@@ -687,6 +670,22 @@ footer ul {
   margin: 0;
 }
 
+.modal ul {
+  display: flex;
+  list-style-type: none;
+  border: 1px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: center;
+  padding: 1rem;
+}
+
+.modal ul li {
+  border: 0.516669px solid #1a2236;
+  padding: 0.5rem;
+}
+
 .deco-0 {
   display: none;
 }
@@ -735,20 +734,22 @@ footer ul {
   }
 
   .modal {
-    display: block;
+    display: none;
     position: fixed;
     width: 50%;
     height: 100vh;
   }
-  .btn1{
-    top:830px;
 
+  .btn1 {
+    top: 830px;
   }
-  .btn2{
-    top:830px;
-    left:20rem;
+
+  .btn2 {
+    top: 830px;
+    left: 20rem;
   }
-  .close-btn{
+
+  .close-btn {
     position: absolute;
     left: 260px;
     top: 30px;
