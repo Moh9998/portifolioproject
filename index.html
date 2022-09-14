@@ -14,10 +14,10 @@
     <nav id="nav-header">
      
       <ul id="nav-list">
-        <li><a href="#greeting" rel="access">Hello</a></li>
-        <li><a href="#projects" rel="acess">Portfolio</a></li>
-        <li><a href="#about" rel="access">About</a></li>
-        <li><a href="#contact" rel="access">Contact</a></li>
+        <li><a href="#greeting" rel="access" onClick='closeMenu()'>Hello</a></li>
+        <li><a href="#projects" rel="acess" onClick='closeMenu()'>Portfolio</a></li>
+        <li><a href="#about" rel="access" onClick='closeMenu()'>About</a></li>
+        <li><a href="#contact" rel="access" onClick='closeMenu()'>Contact</a></li>
       </ul>
 
     </nav>
@@ -62,6 +62,22 @@
         <img class="deco-1" src="./img/image_dots.svg" alt="image">
         <div class="project-1">
           <img class="works-img" src="./img/work-img-1.svg" alt="Image">
+          <div id="modal" class="modal">
+            <h3> project 1</h3>
+            <img class="close-btn" SRC="./img/close.svg" onclick="closemodal()" alt="close" height="20px" width="20px">
+            <ul>
+              <li>html</li>
+              <li>Ruby on Rails</li>
+              <li>javascript</li>
+            </ul>
+            <img src="./img/work-img-1.svg" alt="work-image">
+            <p>
+              Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ad asperiores facilis sequi maiores, ducimus saepe placeat possimus porro numquam molestiae id quis similique quas corrupti, eaque sit nihil aut.
+            </p>
+            <button class="btn1">see live</button>
+            <button class="btn2">see source</button>
+          </div>
           <div class="works-box">
             <h3>Project 1</h3>
             <ul class="framework-container">
@@ -70,8 +86,8 @@
               <li class="framework-box">JavaScript</li>
             </ul>
             <a href="#" rel="access" class="works-link">
-              <div class="works-button">
-                <span>See this project</span>
+              <div class="works-button" onclick="openmodal()">
+                <span id="see-project" >See this project</span>
                 <div class="works-arrow"></div>
               </div>
             </a>
@@ -276,5 +292,6 @@
 
   <script src="./index.js">
   </script>
+  <script src="./modal.js"></script>
 </body>
 </html>
